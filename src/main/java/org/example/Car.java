@@ -116,7 +116,7 @@ class Test
         parkingLot.parkCar(car4);
         parkingLot.parkCar(car5);
 
-        //parkingLot.removeCar("MH298888");
+        parkingLot.removeCar("MH298888");
         parkingLot.parkCar(car6);
 
     }
