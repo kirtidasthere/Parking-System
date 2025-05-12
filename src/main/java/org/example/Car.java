@@ -134,3 +134,44 @@ class Test {
         parkingLot.parkCar(car6); // Will park in spot 0
     }
 }
+
+
+/*
+
+Start
+  |
+  v
+Create ParkingLot with specified capacity
+  |
+  v
+Create Car objects (with license plates)
+  |
+  v
+Park Car
+  |
+  v
+[Is there an available spot?] ---> No ---> Print "Parking is full" ---> End
+            |
+           Yes
+            |
+            v
+ Occupy Spot → Print "Car parked at spot X"
+  |
+  v
+Remove Car
+  |
+  v
+[Is car found by license plate?] ---> No ---> Print "Car not found" ---> End
+            |
+           Yes
+            |
+            v
+Vacate Spot → Print "Car removed from spot X"
+  |
+  v
+(Optional) Park another car
+  |
+  v
+End
+
+ */
